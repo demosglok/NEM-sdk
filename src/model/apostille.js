@@ -249,6 +249,7 @@ let generateAccount = function(common, fileName, network) {
 module.exports = {
     create,
     generateAccount,
+    hashFileData,
     hashing,
     verify,
     isSigned
